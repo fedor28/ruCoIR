@@ -34,5 +34,5 @@ python API_retrival_run_eval.py \
   python read_scores_all.py ./results. Результат будет сохранен в файл `results.csv`.
 
 ## Результаты замеров открытых моделей
-![image](https://github.com/user-attachments/assets/9b8cc299-d8f7-4779-9cdf-23e8463d7bbe)
+![image](https://github.com/fedor28/ruCoIR/blob/bge_code_model/pictures/all_results.png)
 
