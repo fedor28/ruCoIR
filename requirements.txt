@@ -9,3 +9,4 @@ rich>=0.0.0
 faiss_cpu
 pytrec-eval-terrier>=0.5.6
 voyageai
+einops

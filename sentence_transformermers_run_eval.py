@@ -50,6 +50,9 @@ def main():
     parser.add_argument('--hf_token', type=str, help='Hugging Face token for login.')
     parser.add_argument('--embeddings_size', type=int, default=None, help='Truncate dimension for the model.')
     parser.add_argument('--max_seq_length', type=int, default=4096, help='Maximum sequence length for the model.')
+    #parser.add_argument('--matryoshka_dim', type=int, default=None, help='If model was trained with Matryoshka loss, \
+    #                     embeddings after encoding will be trimmed to matryoshka_dim')
+
 
     args = parser.parse_args()
     if args.hf_token:
